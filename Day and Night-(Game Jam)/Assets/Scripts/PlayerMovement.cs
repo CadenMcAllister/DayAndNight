@@ -15,6 +15,8 @@ public class PlayerMovement : MonoBehaviour
     public float speed;
     [SerializeField]
     private float jumpingPower = 5f;
+    public AudioSource audioSource;
+    public AudioClip jump;
     // Start is called before the first frame update
     void Start()
     {
@@ -35,6 +37,7 @@ public class PlayerMovement : MonoBehaviour
     if (Input.GetButtonDown("Jump") && IsGrounded())
     {
         rb.velocity = new Vector2(rb.velocity.x, jumpingPower);
+        audioSource.PlayOneShot(jump, 2f);        
     }
 
     if (Input.GetButtonUp("Jump") && rb.velocity.y == 0f)
