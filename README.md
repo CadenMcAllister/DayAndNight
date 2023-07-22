@@ -1,2 +1,2 @@
 # DayAndNight
-This is a game for "My First Game Jam" that started today on July 22nd 2023.
+This is a game for "My First Game Jam" that started today on July 22nd 2023. This game will be based on the cycles of day and night if you could not tell by the title. During the day time all the normal eemies are there along with a certain set of platforms. But when you need to switch to night to say, cross a bridge that was not there but now you can. There will now be different enemies to fight.
