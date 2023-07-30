@@ -1256,7 +1256,7 @@ MonoBehaviour:
     m_Bits: 8
   coll: {fileID: 1614662088}
   speed: 10
-  jumpingPower: 10
+  jumpingPower: 15
   audioSource: {fileID: 1614662089}
   jump: {fileID: 8300000, guid: 76e9d1a4bd55ba9449584a4bc9c4a08f, type: 3}
 --- !u!50 &1614662085
