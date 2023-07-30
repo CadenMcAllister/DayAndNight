@@ -24358,7 +24358,7 @@ PrefabInstance:
     - target: {fileID: 7379053072621186118, guid: 0654a46fbc13108418305b81a8451b8d, type: 3}
       propertyPath: Day
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 601323665}
     - target: {fileID: 7379053072621186118, guid: 0654a46fbc13108418305b81a8451b8d, type: 3}
       propertyPath: Night
       value: 
