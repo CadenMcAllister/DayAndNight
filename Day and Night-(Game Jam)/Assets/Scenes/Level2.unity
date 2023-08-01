@@ -136,7 +136,7 @@ GameObject:
   - component: {fileID: 292000770}
   m_Layer: 5
   m_Name: Image
-  m_TagString: Untagged
+  m_TagString: Day
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -212,7 +212,7 @@ GameObject:
   - component: {fileID: 340916262}
   m_Layer: 5
   m_Name: Image (1)
-  m_TagString: Untagged
+  m_TagString: Night
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -370,13 +370,70 @@ RectTransform:
   - {fileID: 340916264}
   - {fileID: 292000769}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1001 &501408523
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4604393258922258400, guid: 3de62e23e408fdd4aabedbcf96103d83, type: 3}
+      propertyPath: m_Name
+      value: Flag
+      objectReference: {fileID: 0}
+    - target: {fileID: 4604393258922258404, guid: 3de62e23e408fdd4aabedbcf96103d83, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4604393258922258404, guid: 3de62e23e408fdd4aabedbcf96103d83, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 231.46228
+      objectReference: {fileID: 0}
+    - target: {fileID: 4604393258922258404, guid: 3de62e23e408fdd4aabedbcf96103d83, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -12.5204
+      objectReference: {fileID: 0}
+    - target: {fileID: 4604393258922258404, guid: 3de62e23e408fdd4aabedbcf96103d83, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 6.6742
+      objectReference: {fileID: 0}
+    - target: {fileID: 4604393258922258404, guid: 3de62e23e408fdd4aabedbcf96103d83, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4604393258922258404, guid: 3de62e23e408fdd4aabedbcf96103d83, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4604393258922258404, guid: 3de62e23e408fdd4aabedbcf96103d83, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4604393258922258404, guid: 3de62e23e408fdd4aabedbcf96103d83, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4604393258922258404, guid: 3de62e23e408fdd4aabedbcf96103d83, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4604393258922258404, guid: 3de62e23e408fdd4aabedbcf96103d83, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4604393258922258404, guid: 3de62e23e408fdd4aabedbcf96103d83, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3de62e23e408fdd4aabedbcf96103d83, type: 3}
 --- !u!1 &601323665
 GameObject:
   m_ObjectHideFlags: 0
@@ -24358,7 +24415,7 @@ PrefabInstance:
     - target: {fileID: 7379053072621186118, guid: 0654a46fbc13108418305b81a8451b8d, type: 3}
       propertyPath: Day
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 601323665}
     - target: {fileID: 7379053072621186118, guid: 0654a46fbc13108418305b81a8451b8d, type: 3}
       propertyPath: Night
       value: 
@@ -26058,7 +26115,7 @@ Transform:
   m_Children:
   - {fileID: 601323666}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1815669762
 GameObject:
@@ -26122,7 +26179,7 @@ Transform:
   m_Children:
   - {fileID: 1532056789}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!156049354 &1959230883
 Grid:

@@ -4,13 +4,14 @@ using UnityEngine.UI;
 public class DayAndNight : MonoBehaviour
 {
     public GameObject Night;
-    public Image Image1;
-    public Image Image2;
+    public GameObject Image1;
+    public GameObject Image2;
     public GameObject Day;
     // Start is called before the first frame update
     void Start()
     {
-        Image1 = gameObject.GetComponent<Image>();
+        Image1 = GameObject.Find("Image");
+        Image2 = GameObject.Find("Image(1)");
         Night = GameObject.FindGameObjectWithTag("Night");
         Day = GameObject.FindGameObjectWithTag("Day");
         Night.SetActive(false);
@@ -21,11 +22,12 @@ public class DayAndNight : MonoBehaviour
     void Update()
     {
         if (Night){
-            Image1.sprite = Image2.sprite;
+            Image1.SetActive(true);
+            Image2.SetActive(false);
         }
 
         if (Day){
-            Image1.sprite = Image1.sprite;
+
         }
     }
 }
