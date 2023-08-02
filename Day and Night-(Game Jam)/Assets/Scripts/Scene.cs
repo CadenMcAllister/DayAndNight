@@ -1,11 +1,15 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
-
+using UnityEngine.SceneManagement;
 public class Scene : MonoBehaviour
 {
-    private void OnCollision(Collider2D collision){
-        
+    public string scene;
+    void Start(){
+    scene = SceneManager.GetActiveScene().ToString();
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision){
+        if (scene == "Main"){
+            Debug.Log("Main");
+        }
     }
 }
