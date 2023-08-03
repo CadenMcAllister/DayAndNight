@@ -1,11 +1,14 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
-
+using UnityEngine.SceneManagement;
 public class Scene : MonoBehaviour
 {
-    private void OnCollision(Collider2D collision){
-        
+    public GameObject LevelLoader;
+    public bool Starter = false;
+    public LevelLoader levelLoader;
+    void Awake(){
+        levelLoader = GameObject.Find("LevelLoader").GetComponent<LevelLoader>();
+    }
+    private void OnCollisionEnter2D (Collision2D collision){
+        Starter = true;
     }
 }
