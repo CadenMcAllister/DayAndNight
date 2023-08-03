@@ -146,4 +146,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9207e7f99e4ce924b8ae9eb4493491f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scene: 
+  LevelLoader: {fileID: 0}
+  Starter: 0
+  levelLoader: {fileID: 0}
