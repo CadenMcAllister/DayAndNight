@@ -31,5 +31,7 @@ public class LevelLoader : MonoBehaviour
         yield return new WaitForSeconds(transitionTime);
         //Load next level
         SceneManager.LoadScene(levelIndex);
+        //Reset variable
+        scene.Starter = false;
     }
 }
