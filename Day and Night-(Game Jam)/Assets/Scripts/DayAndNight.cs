@@ -26,13 +26,13 @@ public class DayAndNight : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButtonDown(1)){
+        if (Input.GetKeyDown(KeyCode.LeftShift)){
             Night.SetActive(true);
             Day.SetActive(false);
             isDay = false; 
         }
 
-        if (Input.GetMouseButtonUp(1)){
+        if (Input.GetKeyUp(KeyCode.LeftShift)){
             Day.SetActive(true);
             Night.SetActive(false);
             isDay = true; 
