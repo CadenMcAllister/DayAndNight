@@ -8,6 +8,8 @@ TagManager:
   - Night
   - Canvas
   - Loader
+  - Projectile
+  - PlayerProjectile
   layers:
   - Default
   - TransparentFX

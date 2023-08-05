@@ -12,10 +12,10 @@ GameObject:
   - component: {fileID: 2155875453109148708}
   - component: {fileID: 6489334516615779742}
   - component: {fileID: 2816304462411907590}
-  - component: {fileID: 4369185521184184168}
+  - component: {fileID: 5826377475240381828}
   m_Layer: 0
-  m_Name: Projectile
-  m_TagString: PlayerProjectile
+  m_Name: Projectile 1
+  m_TagString: Projectile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -77,7 +77,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: ea2559bc44150e04a9b4282493317635, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.7808838, g: 0.3723033, b: 0.7830189, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -124,7 +124,7 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.46
---- !u!114 &4369185521184184168
+--- !u!114 &5826377475240381828
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
