@@ -83046,7 +83046,7 @@ GameObject:
   - component: {fileID: 292000771}
   - component: {fileID: 292000770}
   m_Layer: 5
-  m_Name: Image
+  m_Name: 'Image '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -83153,7 +83153,7 @@ Transform:
   m_Children:
   - {fileID: 29658878}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &340916261
 GameObject:
@@ -83326,7 +83326,7 @@ RectTransform:
   - {fileID: 292000769}
   - {fileID: 340916264}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -83362,7 +83362,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8498566715006511742, guid: ac5b506bda07c6c4daddf8b3c9e9bf74, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8498566715006511742, guid: ac5b506bda07c6c4daddf8b3c9e9bf74, type: 3}
       propertyPath: m_LocalPosition.x
@@ -83506,7 +83506,7 @@ GameObject:
   - component: {fileID: 1237471481}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -83527,7 +83527,7 @@ Transform:
   - {fileID: 1186659915}
   - {fileID: 1621411886}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &1237471481
 AudioSource:
@@ -83759,7 +83759,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4604393258922258404, guid: 3de62e23e408fdd4aabedbcf96103d83, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4604393258922258404, guid: 3de62e23e408fdd4aabedbcf96103d83, type: 3}
       propertyPath: m_LocalPosition.x
@@ -84615,6 +84615,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1237471480}
     m_Modifications:
+    - target: {fileID: 22600606, guid: c3a9fe334064fac4fa15e3b0b3e9e3b0, type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 1237471479}
+    - target: {fileID: 22600606, guid: c3a9fe334064fac4fa15e3b0b3e9e3b0, type: 3}
+      propertyPath: rbPlayer
+      value: 
+      objectReference: {fileID: 1237471484}
     - target: {fileID: 2913395176841324453, guid: c3a9fe334064fac4fa15e3b0b3e9e3b0, type: 3}
       propertyPath: m_Name
       value: Blaster
@@ -84732,7 +84740,7 @@ Transform:
   m_Children:
   - {fileID: 1532056789}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!156049354 &1959230883
 Grid:
@@ -84759,7 +84767,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7158674913093735463, guid: fbe0201d6a651604d943c464e1cd4549, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7158674913093735463, guid: fbe0201d6a651604d943c464e1cd4549, type: 3}
       propertyPath: m_LocalPosition.x

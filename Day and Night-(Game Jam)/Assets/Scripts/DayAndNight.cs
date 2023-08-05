@@ -13,7 +13,7 @@ public class DayAndNight : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Image1 = GameObject.Find("Image");
+        Image1 = GameObject.Find("Image ");
         Image2 = GameObject.Find("Image (1)");
         Night = GameObject.FindGameObjectWithTag("Night");
         Day = GameObject.FindGameObjectWithTag("Day");

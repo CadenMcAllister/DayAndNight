@@ -56081,6 +56081,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1237471480}
     m_Modifications:
+    - target: {fileID: 22600606, guid: c3a9fe334064fac4fa15e3b0b3e9e3b0, type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 1237471479}
+    - target: {fileID: 22600606, guid: c3a9fe334064fac4fa15e3b0b3e9e3b0, type: 3}
+      propertyPath: rbPlayer
+      value: 
+      objectReference: {fileID: 1237471484}
     - target: {fileID: 2913395176841324453, guid: c3a9fe334064fac4fa15e3b0b3e9e3b0, type: 3}
       propertyPath: m_Name
       value: Blaster
@@ -56148,7 +56156,7 @@ GameObject:
   - component: {fileID: 292000771}
   - component: {fileID: 292000770}
   m_Layer: 5
-  m_Name: Image
+  m_Name: 'Image '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -56608,7 +56616,7 @@ GameObject:
   - component: {fileID: 1237471481}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
