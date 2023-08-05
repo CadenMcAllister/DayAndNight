@@ -29,9 +29,8 @@ void Fire()
     Rigidbody2D rb = newProjectile.GetComponent<Rigidbody2D>();
     
     rb.AddForce(transform.right * currentGun.GetComponent<GunController>().projectileForce, ForceMode2D.Impulse);
-    rbPlayer.velocity = new Vector2(-25, 25);
+    rbPlayer.velocity = new Vector2(-5, 5);
     Destroy(newProjectile, 5f);
+
 }
-
-
 }
