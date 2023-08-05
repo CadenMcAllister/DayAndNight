@@ -9,6 +9,8 @@ public class Scene : MonoBehaviour
         levelLoader = GameObject.Find("LevelLoader").GetComponent<LevelLoader>();
     }
     private void OnCollisionEnter2D (Collision2D collision){
+        if (collision.gameObject.tag == "Player"){
         Starter = true;
+        }
     }
 }
